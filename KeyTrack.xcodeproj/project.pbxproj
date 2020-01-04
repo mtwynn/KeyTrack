@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6E636BCFFC015B909587480 /* Pods_KeyTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71BA8C4A9F845C33FA8655E /* Pods_KeyTrackTests.framework */; };
+		C6DF9BCD23C03B360099C115 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DF9BCC23C03B360099C115 /* SpotifyiOS.framework */; };
 		C6F85D1723BF0B7400BF2ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F85D1623BF0B7400BF2ABD /* AppDelegate.swift */; };
 		C6F85D1923BF0B7400BF2ABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F85D1823BF0B7400BF2ABD /* SceneDelegate.swift */; };
 		C6F85D1B23BF0B7400BF2ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F85D1A23BF0B7400BF2ABD /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		C6F85D2323BF0B7700BF2ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F85D2123BF0B7700BF2ABD /* LaunchScreen.storyboard */; };
 		C6F85D2E23BF0B7700BF2ABD /* KeyTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F85D2D23BF0B7700BF2ABD /* KeyTrackTests.swift */; };
 		C6F85D3923BF0B7700BF2ABD /* KeyTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F85D3823BF0B7700BF2ABD /* KeyTrackUITests.swift */; };
+		EC5C9374E18BF141246DE95D /* Pods_KeyTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC409874A3DB72E0070EDA6 /* Pods_KeyTrack.framework */; };
+		F7E75DA5FD586CA471EA33E8 /* Pods_KeyTrack_KeyTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BDACFC1EB6199EFE231EAE /* Pods_KeyTrack_KeyTrackUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02AECADDC4904E78043F520E /* Pods-KeyTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTrackTests.release.xcconfig"; path = "Target Support Files/Pods-KeyTrackTests/Pods-KeyTrackTests.release.xcconfig"; sourceTree = "<group>"; };
+		03AABDAD343E203566514EF9 /* Pods-KeyTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyTrackTests/Pods-KeyTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BC409874A3DB72E0070EDA6 /* Pods_KeyTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296567CD4D7B676EC443BE19 /* Pods-KeyTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTrack.debug.xcconfig"; path = "Target Support Files/Pods-KeyTrack/Pods-KeyTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		610441F62F2ACBB7AE530621 /* Pods-KeyTrack-KeyTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTrack-KeyTrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyTrack-KeyTrackUITests/Pods-KeyTrack-KeyTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62BDACFC1EB6199EFE231EAE /* Pods_KeyTrack_KeyTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyTrack_KeyTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1DA4F99AFFBD6B77E68ED2 /* Pods-KeyTrack-KeyTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTrack-KeyTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-KeyTrack-KeyTrackUITests/Pods-KeyTrack-KeyTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE29C87FF8E685B28DAE6837 /* Pods-KeyTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTrack.release.xcconfig"; path = "Target Support Files/Pods-KeyTrack/Pods-KeyTrack.release.xcconfig"; sourceTree = "<group>"; };
+		C6DF9BCC23C03B360099C115 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "ios-sdk-1.2.0/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		C6DF9BCF23C03C9E0099C115 /* KeyTrack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyTrack-Bridging-Header.h"; sourceTree = "<group>"; };
 		C6F85D1323BF0B7400BF2ABD /* KeyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F85D1623BF0B7400BF2ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F85D1823BF0B7400BF2ABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,7 @@
 		C6F85D3423BF0B7700BF2ABD /* KeyTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F85D3823BF0B7700BF2ABD /* KeyTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTrackUITests.swift; sourceTree = "<group>"; };
 		C6F85D3A23BF0B7700BF2ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71BA8C4A9F845C33FA8655E /* Pods_KeyTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5C9374E18BF141246DE95D /* Pods_KeyTrack.framework in Frameworks */,
+				C6DF9BCD23C03B360099C115 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E636BCFFC015B909587480 /* Pods_KeyTrackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +88,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E75DA5FD586CA471EA33E8 /* Pods_KeyTrack_KeyTrackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0470D9E14E32AA324F4765E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC409874A3DB72E0070EDA6 /* Pods_KeyTrack.framework */,
+				62BDACFC1EB6199EFE231EAE /* Pods_KeyTrack_KeyTrackUITests.framework */,
+				F71BA8C4A9F845C33FA8655E /* Pods_KeyTrackTests.framework */,
+				C6DF9BCC23C03B360099C115 /* SpotifyiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6F85D0A23BF0B7400BF2ABD = {
 			isa = PBXGroup;
 			children = (
+				C6DF9BCF23C03C9E0099C115 /* KeyTrack-Bridging-Header.h */,
 				C6F85D1523BF0B7400BF2ABD /* KeyTrack */,
 				C6F85D2C23BF0B7700BF2ABD /* KeyTrackTests */,
 				C6F85D3723BF0B7700BF2ABD /* KeyTrackUITests */,
 				C6F85D1423BF0B7400BF2ABD /* Products */,
+				FC75D281CE743E741115C4B5 /* Pods */,
+				0470D9E14E32AA324F4765E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +161,19 @@
 			path = KeyTrackUITests;
 			sourceTree = "<group>";
 		};
+		FC75D281CE743E741115C4B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				296567CD4D7B676EC443BE19 /* Pods-KeyTrack.debug.xcconfig */,
+				BE29C87FF8E685B28DAE6837 /* Pods-KeyTrack.release.xcconfig */,
+				610441F62F2ACBB7AE530621 /* Pods-KeyTrack-KeyTrackUITests.debug.xcconfig */,
+				8C1DA4F99AFFBD6B77E68ED2 /* Pods-KeyTrack-KeyTrackUITests.release.xcconfig */,
+				03AABDAD343E203566514EF9 /* Pods-KeyTrackTests.debug.xcconfig */,
+				02AECADDC4904E78043F520E /* Pods-KeyTrackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F85D3D23BF0B7700BF2ABD /* Build configuration list for PBXNativeTarget "KeyTrack" */;
 			buildPhases = (
+				7F470DA32C8751C374014187 /* [CP] Check Pods Manifest.lock */,
 				C6F85D0F23BF0B7400BF2ABD /* Sources */,
 				C6F85D1023BF0B7400BF2ABD /* Frameworks */,
 				C6F85D1123BF0B7400BF2ABD /* Resources */,
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F85D4023BF0B7700BF2ABD /* Build configuration list for PBXNativeTarget "KeyTrackTests" */;
 			buildPhases = (
+				B763A9BD025E40815AC0D567 /* [CP] Check Pods Manifest.lock */,
 				C6F85D2523BF0B7700BF2ABD /* Sources */,
 				C6F85D2623BF0B7700BF2ABD /* Frameworks */,
 				C6F85D2723BF0B7700BF2ABD /* Resources */,
@@ -170,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F85D4323BF0B7700BF2ABD /* Build configuration list for PBXNativeTarget "KeyTrackUITests" */;
 			buildPhases = (
+				5EEE3D1F8168BB821A284EA9 /* [CP] Check Pods Manifest.lock */,
 				C6F85D3023BF0B7700BF2ABD /* Sources */,
 				C6F85D3123BF0B7700BF2ABD /* Frameworks */,
 				C6F85D3223BF0B7700BF2ABD /* Resources */,
@@ -253,6 +302,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EEE3D1F8168BB821A284EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyTrack-KeyTrackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F470DA32C8751C374014187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B763A9BD025E40815AC0D567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyTrackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6F85D0F23BF0B7400BF2ABD /* Sources */ = {
@@ -370,8 +488,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-Objc";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeyTrack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -423,8 +543,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-Objc";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeyTrack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -432,10 +554,15 @@
 		};
 		C6F85D3E23BF0B7700BF2ABD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296567CD4D7B676EC443BE19 /* Pods-KeyTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NZM4H7RMP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk-1.2.0",
+				);
 				INFOPLIST_FILE = KeyTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,6 +570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TD.KeyTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KeyTrack-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,10 +578,15 @@
 		};
 		C6F85D3F23BF0B7700BF2ABD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE29C87FF8E685B28DAE6837 /* Pods-KeyTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NZM4H7RMP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk-1.2.0",
+				);
 				INFOPLIST_FILE = KeyTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +594,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TD.KeyTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KeyTrack-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +602,7 @@
 		};
 		C6F85D4123BF0B7700BF2ABD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AABDAD343E203566514EF9 /* Pods-KeyTrackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +625,7 @@
 		};
 		C6F85D4223BF0B7700BF2ABD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AECADDC4904E78043F520E /* Pods-KeyTrackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +648,7 @@
 		};
 		C6F85D4423BF0B7700BF2ABD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610441F62F2ACBB7AE530621 /* Pods-KeyTrack-KeyTrackUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +669,7 @@
 		};
 		C6F85D4523BF0B7700BF2ABD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1DA4F99AFFBD6B77E68ED2 /* Pods-KeyTrack-KeyTrackUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_KeyTrack {
+  umbrella header "Pods-KeyTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}
